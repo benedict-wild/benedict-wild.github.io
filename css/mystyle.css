@@ -1,62 +1,76 @@
+body {
+	z-index: 0;
+	font-family: "Gill sans", sans-serif;
+}
 h1 {
 	font-family: "Gill sans", sans-serif;
 }
 p, span, li{
 	font-family: "Gill sans", sans-serif;
 	text-align:justify;
-}
-main, header, nav, footer {
-	margin: 0em;
-	padding:1em;
+	font-size: 22px;
 }
 
 main{
-	float;
+	z-index: 10;
+	position: relative;
+	left: 18em;
 	/*border-style: dashed;*/
+	padding: 1.2em;
+	margin: 0.5em;
+	max-width: 80%
 }
 
 header{
+	z-index:15;
+	position: sticky;
 	background-color: #ffffff;
 	border-bottom: solid;
 	border-bottom-color: #bfbfbf;
 	border-bottom-width: 2px;
-	/*position: absolute;*/
+	padding: 1em;
 	top: 0px;
 	left: 0px;
 	width: 100%
+	
 	/*border-style: dashed;*/
 	/*border-color: red;*/
 }
 
 footer{
+	z-index: 8;
 	position: absolute;
 	bottom: 0em;
 	/*border-style: dotted;*/
 	padding: 0 1em 1em;
 	width: 100%;
-	text-align: center;
+	text-align: left;
+	font-size: 12px;
 }
 
 #portrait{
-	border-radius: 200px;
-	width: 200px;
-	height: 200px;
+	border-radius: 15em;
+	width: 15em;
+	height: 15em;
 	box-shadow: 1em 1em 3em #222222;
-	margin-top: 1em;
+	margin: auto;
+	margin-top: 2em;
 }
 
 #sidebar{
-	float:left;
-	width:15%;
+	position:absolute;
+	width:18em;
 	/*border-style: dotted;*/
-	margin-right:1.7%;
-	margin-bottom:1em;
+	margin-right:0em;
+	margin-bottom:0em;
 	background-color: #fff;
-	padding:0.1em;
+	padding:0.2em;
 	height: 100%;
+	z-index: 1;
 }
 
 #social_media{
+	margin: auto;
 	cursor: pointer;
 	vertical-align: middle;
 }
@@ -66,6 +80,7 @@ footer{
 	font-family: "Gill sans", sans-serif;
 	font-color:black;
 	text-decoration-line: none;
+	font-size: 20px;
 }
 
 a:visited{
@@ -73,9 +88,36 @@ a:visited{
 
 }
 
+nav li{
+	display: inline;
+	margin-right: 20px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+
 ul li ol{
 	margin-bottom: 0.5em;
 }
 
-#nav-item{
- }
+.footer-text{
+	text-align: center;
+	font-size:14px;
+}
+
+#pub-list{
+	max-width: 80%;
+	font-family: "Gill sans", sans-serif;
+}
+
+
+.blog-card{
+	background-color: #DDDDDD;
+	padding: 1em;
+	max-width: 40em;
+}
+
+.blog-card h2, h4, p{
+	font-family: "Gill sans", sans-serif;
+	
+}
