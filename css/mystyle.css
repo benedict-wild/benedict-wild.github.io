@@ -1,3 +1,6 @@
+
+
+
 body {
 	z-index: 0;
 	font-family: "Gill sans", sans-serif;
@@ -32,9 +35,37 @@ header{
 	top: 0px;
 	left: 0px;
 	width: 100%
-	
+	font-color: #bfbfbf;
 	/*border-style: dashed;*/
 	/*border-color: red;*/
+}
+
+nav li{
+	display: inline;
+	margin-right: 20px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-color: #bfbfbf;
+}
+
+#pr-table a, a:visited{
+	color: black;
+}
+
+nav a, a:visited{
+	color: #bfbfbf;	
+}
+
+
+#active-nav{
+	color: #000;
+	padding: 1em;
+	border-style: solid;
+	border-color: #000;
+}
+
+#active-nav a, a:visited{
+	font-color: #000;
 }
 
 footer{
@@ -69,6 +100,10 @@ footer{
 	z-index: 1;
 }
 
+#sidebar a{
+	color:black;
+}
+
 #social_media{
 	margin: auto;
 	cursor: pointer;
@@ -83,17 +118,7 @@ footer{
 	font-size: 20px;
 }
 
-a:visited{
-	color:black;
 
-}
-
-nav li{
-	display: inline;
-	margin-right: 20px;
-	font-size: 1.2em;
-	text-transform: uppercase;
-}
 
 
 ul li ol{
@@ -120,4 +145,15 @@ ul li ol{
 .blog-card h2, h4, p{
 	font-family: "Gill sans", sans-serif;
 	
+}
+
+#pr-table{
+	font-size: 20px;
+	padding: 1em;
+}
+
+
+
+td {
+	padding: 0.5em;
 }
