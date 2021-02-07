@@ -11,7 +11,7 @@ h1 {
 p, span, li{
 	font-family: "Gill sans", sans-serif;
 	text-align:justify;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 main{
@@ -70,7 +70,7 @@ nav a, a:visited{
 
 footer{
 	z-index: 8;
-	position: absolute;
+	position: float;
 	bottom: 0em;
 	/*border-style: dotted;*/
 	padding: 0 1em 1em;
@@ -142,6 +142,16 @@ ul li ol{
 	max-width: 40em;
 }
 
+.blogpost{
+	padding: 1em;
+	max-width: 60em;
+}
+
+.blog-figure{
+	padding: 1em;
+	max-width: 50em;
+}
+
 .blog-card h2, h4, p{
 	font-family: "Gill sans", sans-serif;
 	
@@ -152,7 +162,13 @@ ul li ol{
 	padding: 1em;
 }
 
+.blog-card a:visited{
+	color: black;
+}
 
+.blogpost a:visited{
+	color: black;
+}
 
 td {
 	padding: 0.5em;
