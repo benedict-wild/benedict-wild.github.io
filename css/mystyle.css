@@ -135,6 +135,9 @@ ul li ol{
 	font-family: "Gill sans", sans-serif;
 }
 
+#pub-list-item{
+	margin:  15px 0;
+}
 
 .blog-card{
 	background-color: #DDDDDD;
